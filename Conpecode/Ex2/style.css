@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#button1{
+    border-radius: 100px;
+    font-size: large;
+    border-width: 3px;
+    font-family:Helvetica, sans-serif;
+    border-color: #F54B00;
+    color: #F54B00;
+    height: 48px;
+    width: 128px;
+}
+
+#button1:hover{
+    transition: 0.5s;
+    background-color: #F54B00;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transform: scale(1.2);
+}
